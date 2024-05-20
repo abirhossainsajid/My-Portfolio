@@ -239,8 +239,21 @@ section {
   cursor: pointer;
 }
 
-.btn-color-1,
-.btn-color-2:hover {
+
+.btn-color-2:hover  {
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.btn-color-2 {
+  background:#4E5DFF;
+  color: #fff;
+  border: transparent;
+}
+
+
+
+.btn-color-1 {
   background: rgb(53, 53, 53);
   color: white;
 }
@@ -249,9 +262,6 @@ section {
   background: rgb(0, 0, 0);
 }
 
-.btn-color-2 {
-  background: none;
-}
 
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
@@ -376,8 +386,14 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  background: none;
+  color: #000;
   border-color: rgb(163, 163, 163);
+}
+
+.project-btn:hover {
+  background: rgb(53, 53, 53);
+  color: #fff;
 }
 
 /* CONTACT */
